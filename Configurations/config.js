@@ -11,6 +11,6 @@ module.exports = {
     email:`pravinrjpravin@gmail.com`,
     host: 'smtp.gmail.com',
     service: 'gmail',
-    user:'exdrs.emp.0032.rajprabin@gmail.com',
-    pass:'Rajprabin@16'
+    user:process.env.USER,
+    pass:process.env.PASS
 } 
